@@ -15,7 +15,7 @@ setup(
     url="https://github.com/danilocgsilva/wevbox",
     author="Danilo Silva",
     author_email="contato@danilocgsilva.me",
-    package=["src"],
-    entry_points={"console_scripts": ["wevbox==src.__main__:main"]},
+    packages=["wevbox"],
+    entry_points={"console_scripts": ["wevbox=wevbox.__main__:wevbox"]},
     include_package_data=True
 )
